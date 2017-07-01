@@ -1,6 +1,12 @@
 # rc-local.service
 systemd service for legacy /etc/rc.local
 
+## Requirements: ##
+
+- systemd
+- git
+- make
+
 ## Installation: ##
 
     # git clone https://github.com/catinello/rc-local.service && cd rc-local.service
