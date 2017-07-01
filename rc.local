@@ -1,0 +1,9 @@
+#!/bin/sh -e
+# Systemd service for legacy /etc/rc.local
+# https://github.com/catinello/rc-local.service
+# Author: Antonino Catinello | License: MIT
+#  start  #
+
+
+# the end #
+exit 0
