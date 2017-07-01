@@ -15,7 +15,7 @@ systemd service for legacy /etc/rc.local
     install -m644 rc-local.service /etc/systemd/system
     systemctl daemon-reload && systemctl enable rc-local.service
     Created symlink /etc/systemd/system/multi-user.target.wants/rc-local.service -> /etc/systemd/system/rc-local.service.
-    $ cd .. && sudo rm -r rc-local.service
+    $ cd .. && rm -r rc-local.service
 
 ## Configuration: ##
 
@@ -30,7 +30,7 @@ You can simply put your commands in /etc/rc.local just like you used to and they
     rm -f /etc/rc.local
     rm -f /etc/systemd/system/rc-local.service
     systemctl daemon-reload
-    $ cd .. && sudo rm -r rc-local.service
+    $ cd .. && rm -r rc-local.service
     
 ## License: ##
 
