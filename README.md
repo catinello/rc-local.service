@@ -1,11 +1,11 @@
 # rc-local.service
-systemd service for legacy /etc/rc.local
+Systemd service for legacy /etc/rc.local usage.
 
 ## Requirements: ##
 
 - systemd
-- git
-- make
+- git  (optional | used for fetching source files)
+- make (optional | manages file locations and systemd service status)
 
 ## Installation: ##
 
